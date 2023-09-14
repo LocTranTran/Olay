@@ -1,0 +1,23 @@
+$button-color: #f1f1f1;
+$button-hover-color: #555555;
+$button-active-color: #000000;
+
+    .animated-button {
+    padding: 10px 20px;
+    background-color: $button-color;
+    border: 1px solid rgb(227, 226, 226);
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+    &:hover {
+        background-color: $button-hover-color;
+        color: white;
+    }
+
+    &:active {
+        background-color: $button-active-color;
+        transform: translateY(2px);
+    }
+    }

@@ -1,0 +1,32 @@
+.run-marquee {
+    width: 90vw;
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    border:5px double rgb(220, 195, 195);
+    align-items: center;
+    display:flex;
+    font-weight: bold;
+    font-family:'Roboto',sans-serif;
+    background-color: black;
+    color:white;
+    font-size:1.3rem;
+}
+.running-text {
+    overflow: hidden;
+}
+
+.running-text p {
+    white-space: nowrap;
+    animation: running-text-animation 10s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes running-text-animation {
+    0% {
+    transform: translateX(100%);
+    }
+    100% {
+    transform: translateX(-100%);
+    }
+}

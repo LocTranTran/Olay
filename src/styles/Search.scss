@@ -1,0 +1,24 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .animated-input {
+    padding: 10px;
+    border: 2px solid #dcd8d8;
+    border-radius: 4px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+
+    &:focus {
+        border-color: #555555;
+        outline: none;
+    }
+    }
+
+    &:focus-within {
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    }
+}
