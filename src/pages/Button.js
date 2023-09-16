@@ -1,9 +1,9 @@
 import React from 'react'
 import '../styles/Button.scss'
-const Button = (props) => {
+const Button = ({icon , onClick}) => {
 return (
     <>
-    <button className="animated-button">{props.icon}</button>
+    <button onClick ={onClick} className="animated-button">{icon}</button>
     </>
     )
 }
