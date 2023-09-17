@@ -8,7 +8,7 @@ function Carousels() {
     <>
     <div style ={{
         display:'flex',
-        width:'80vw',height:'650px',
+        width:'90vw',height:'650px',
         backgroundSize:'cover', 
         backgroundImage: `url(${backgroundImage})`, 
         backgroundRepeat: 'no-repeat',
@@ -49,7 +49,7 @@ function Carousels() {
                     <Button Style={{fontFamily:'Roboto, sans-serif'}} icon ="MUA NGAY"/>
             </div>
     </div>
-    <Run width='80vw' bg='black' color ='white' text='Chào mừng bạn đến với OLAY .Chúng tôi sẽ mang đến cho bạn trải nghiệm tốt nhất .Mua hàng ngay hôm nay để được giảm giá 25%'/>
+    <Run width='90vw' bg='black' color ='white' text='Chào mừng bạn đến với OLAY .Chúng tôi sẽ mang đến cho bạn trải nghiệm tốt nhất .Mua hàng ngay hôm nay để được giảm giá 25%'/>
     </>
   );
 }
